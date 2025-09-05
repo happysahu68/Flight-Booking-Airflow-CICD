@@ -69,8 +69,8 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 "service_account": "70622048644-compute@developer.gserviceaccount.com",
-                "network_uri": "projects/vibrant-tiger-465811-u6/global/networks/default",
-                "subnetwork_uri": "projects/vibrant-tiger-465811-u6/regions/us-central1/subnetworks/default",
+                "network_uri": "projects/vibrant-tiger-465811-u6/global/networks/default", # default network uri
+                "subnetwork_uri": "projects/vibrant-tiger-465811-u6/regions/us-central1/subnetworks/default", #default subnetwork
             }
         },
     }

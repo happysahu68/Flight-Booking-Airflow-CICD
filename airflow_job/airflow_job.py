@@ -18,7 +18,7 @@ default_args = {
 with DAG(
     dag_id="flight_booking_dataproc_bq_dag",
     default_args=default_args,
-    schedule_interval=None,  # Trigger manually or on-demand
+    schedule_interval=None,  # Trigger manually or on-demanded
     catchup=False,
 ) as dag:
 
